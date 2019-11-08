@@ -231,3 +231,103 @@ address a:hover {
 	transition: 0.3s;
 }
 
+/* SERVICES */
+
+.header-services-img img {
+	width: 100%;
+}
+
+.services-intro {
+	margin: 20px 0;
+}
+
+.services-intro h2 {
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.services-intro p {
+	text-align: justify;
+	line-height: 22px;
+	font-size: 17px;
+}	
+
+.services-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-info {
+	border: 1px solid black;
+	background: rgb(240, 240, 240);
+	width: 48%;
+	height: 300px;
+	margin: 20px 10px;
+	padding: 15px;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.services-info:nth-child(odd) {
+	margin-left: 0;
+}
+
+.services-info:nth-child(even) {
+	margin-right: 0;
+}
+
+.services-info h2 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.services-info p {
+	font-size: 17px;
+	line-height: 22px;
+}
+
+.services-info button {
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 30%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.services-facts {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	border-top: 2px solid black;
+}
+
+.services-facts h3 {
+	font-size: 18px;
+}
+
+.services-facts ul {
+	list-style-type: square;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.services-facts ul li {
+	padding: 6px 0;
+}
+
+.facts {
+	margin-right: 100px;
+	width: 50%;
+}
+
+.facts p {
+	font-size: 17px;
+	line-height: 22px;
+}
+
+
+
