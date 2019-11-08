@@ -329,7 +329,71 @@ address a:hover {
 	line-height: 22px;
 }
 
-@media (min-width: 771px) and (max-width: 895px){
+/* VISION */
+
+.header-vision-img {
+	width: 100%;
+	text-align: top;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-image: url('../img/services-info.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.vision-intro h2 {
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+.vision-intro p {
+	font-size: 17px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+.value-info {
+	border: 1px solid black;
+	background: white;
+	max-width: 30%;
+	height: 300px;
+	margin: 20px 10px;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.value-info:hover {
+	transform: scale(1.05);
+	padding: 0px;
+	transition: 0.3s;
+}
+
+.value-info p {
+	line-height: 18px;
+	line-height: 22px;
+}
+
+.values-wrapper {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.vision-main h3 {
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 23px;
+}
+
+@media (min-width: 771px) and (max-width: 895px) {
 	.nav-list a {
 		font-size: 13px;
 		padding: 10px;
